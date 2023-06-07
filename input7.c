@@ -8,7 +8,7 @@ void main()
      int first , second;
      printf("Enter value of number ");
      scanf("%d",&number);
-     // number = 56;
+     // number = 65;
      first = number / 10 ;
      second = number % 10 ;
      printf("the value of first is %d ",first);

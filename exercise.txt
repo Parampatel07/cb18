@@ -1,0 +1,6 @@
+1)write a program to accept height from user as float value(foot.inch). display message "you are short" if height is less then 5 foot 
+height = 5.7
+
+2)write a program to accept month number from user. display message "this month has 28 or 29 days" if month if february
+
+3)write a program to accept one letter from user. if letter is (a) then print message "it is first letter of abcd".

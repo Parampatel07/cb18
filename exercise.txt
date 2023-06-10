@@ -7,4 +7,7 @@ height = 5.7
 
 4)Write a programe to findout wether the user given number is negative or not if negative give message "number is negative "
 
-5)Write a programe to findout wether the user is eligible for voting or not 
+5)Write a programe to findout wether the user is eligible for voting or not.
+
+Write a programe to findout distance of planet from sun 
+https://www.jpl.nasa.gov/edu/pdfs/scaless_reference.pdf

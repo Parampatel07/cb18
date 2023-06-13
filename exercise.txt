@@ -23,7 +23,6 @@ units           price  per unit
 also calculate 5% percentage energy charge on total bill amount & display total amount 
 
 
-
 Write a C program to calculate income tax, gross income, net income from monthly income given by user 
 yearly income     tax rate
 <3,00,000         5%  
@@ -35,3 +34,8 @@ yearly income     tax rate
 <8,00,000         20%
 
 >=8,00,000        30%  
+
+Write a program to display zodiac symbol & given zodiac sign from given birth day and month as per following criteria.
+https://in.pinterest.com/pin/81698180718875314/
+month = 2
+day = 10

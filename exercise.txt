@@ -43,4 +43,5 @@ day = 10
 Write a program to print day from given number 
 
 write a programe to print number in words using switch case only 2 digit number
-=> 56 -  > five six
+=> 12 -  > One two
+74 - > seven four 

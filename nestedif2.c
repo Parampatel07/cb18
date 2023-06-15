@@ -17,7 +17,6 @@ void main()
      int month, answer;
      printf("Enter any month ");
      scanf("%d", &month);
-
      if (month == 2)
      {
           printf("It has 28 - 29 days ");
@@ -47,10 +46,4 @@ void main()
                }
           }
      }
-     // else if(month==2)
-     // {
-     //      printf("It has 28 - 29 days ");
-     // }
-
-    
 }

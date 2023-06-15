@@ -39,3 +39,8 @@ Write a program to display zodiac symbol & given zodiac sign from given birth da
 https://in.pinterest.com/pin/81698180718875314/
 month = 2
 day = 10
+
+Write a program to print day from given number 
+
+write a programe to print number in words using switch case only 2 digit number
+=> 56 -  > five six

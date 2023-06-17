@@ -45,3 +45,11 @@ Write a program to print day from given number
 write a programe to print number in words using switch case only 2 digit number
 => 12 -  > One two
 74 - > seven four 
+
+Loop
+------------------------------------------
+Write a programe to print following pattern
+2, 1, 3, 4, 7, 11, 18, 29, 47, 76, 123 .... 3000
+
+Write a programe to print all odd number till 6000
+1,3,5,7,9,....6000

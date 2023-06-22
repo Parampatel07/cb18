@@ -59,5 +59,6 @@ https://i1.faceprep.in/fp/articles/img/46684_1580817324.png
 Write a programe to print following pattern
 1, 5, 12, 22, 35, 51, 70, 92, 117, 145, 176 ... 300
 
-Write a programe to findout power and exponent of given number 
+Write a programe to findout power and exponent of given number
 
+https://i1.faceprep.in/fp/articles/img/55984_1580817324.png

@@ -1,22 +1,25 @@
-// Write a programe to print following pattern
-// 0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55 ... 1000
-// 0 1  2  3  4  5   6  7  8
 #include <stdio.h>
 void main()
 {
-     int number = 0;
-     int answer = 0;
-     int count= 0 ;
-     // printf("%d ,", number);
-     for(count = 0;answer<990 ; count++)
-     {
-          answer = answer + count;
-          printf("%d ,", answer);
-     }
-     // answer = answer + 2;
-     // printf("%d ,",answer);
-     // answer = answer + 3;
-     // printf("%d ,",answer);
-     // answer = answer + 4;
-     // printf("%d ,",answer);
+    int col1, col2, row, temp, flash;
+    temp = 4;
+    flash = 1;
+    for (row = 1; row <= 5; row++)
+    {
+
+        for (col1 = 1; col1 <= temp; col1++)
+        {
+
+            printf(" ");
+        }
+
+        for (col2 = 1; col2 <= flash; col2++)
+        {
+            printf("* ");
+        }
+
+        printf("\n");
+        flash = flash + 1;
+        temp = temp - 1;
+    }
 }

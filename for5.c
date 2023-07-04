@@ -1,25 +1,36 @@
-// Write a programe to findout power and exponent of given number
-#include <stdio.h>
+#include<stdio.h>
 void main()
 {
-     int base;
-     int power;
-     int answer;
-     int count =0;
-     printf("Enter value of base ");
-     scanf("%d", &base);
-     printf("Enter value of power ");
-     scanf("%d", &power);
-     base = 5;
-     power = 6;
-     // 5 * 5 * 5 * 5 * 5 * 5
-     answer = base * base; // 5 * 5= 25
-     for(count = 2; count < power ; count = count +1)
-     {
-          answer = answer * base;
-     }
-     // answer = answer * base;
-     // answer = answer * base;
-     // answer = answer * base;
-     printf("the value of answer is %d ", answer);
+    int row,col1,col2,temp,count;
+    temp = 5;
+    count = 1;
+
+    for (row = 1; row <= 5;row++)
+    {
+        for (col1 = 1; col1 <= count;col1++)
+        {
+
+            printf("_");
+
+        }
+
+        for (col2 = 1; col2 <= temp;col2++)
+        {
+            if(col2==1 || row==1 || temp==col2)
+            {
+            printf("%d ", col2);
+
+            }
+            else 
+            {
+            printf("  ");
+            }
+            
+        }
+        
+        printf("\n");
+        temp--;
+        count ++;
+}
+printf("good byeee");
 }

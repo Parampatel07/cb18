@@ -1,24 +1,29 @@
-// Write a programe to print following pattern
-// 1, 5, 12, 22, 35, 51, 70, 92, 117, 145, 176 ... 300
-//  4  7  10  13 16
-#include <stdio.h>
+#include<stdio.h>
 void main()
 {
-     int number = 1;
-     int answer = 0;
-     int count = 7;
-     printf("%d ", number);
-     answer = number + 4; // 5
-     printf("%d ", answer);
 
-     for (number = 1; answer < 287; count = count + 3)
-     {
-          answer = answer + count; // 12
-          printf("%d ", answer);
-     }
-     
-     // answer = answer + 10;//22
-     // printf("%d ",answer);
-     // answer = answer + 13;
-     // printf("%d ",answer);
+    int row,col,temp,flash;
+    flash = 5;
+    for (row = 1; row <= 5;row++)
+    {
+        for (col = 1; col <= flash;col++)
+        {
+            printf(" ");
+        }
+
+        for (temp = 1; temp <= row;temp++)
+        {
+            if(row==5 ||  temp==1 || row ==temp)
+            {
+            printf("* ");
+            }
+            else{
+            printf("  ");
+            }
+         }
+         
+    printf("\n");
+    flash--;
+
+    }
 }

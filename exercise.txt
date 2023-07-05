@@ -62,5 +62,6 @@ Write a programe to print following pattern
 Write a programe to findout power and exponent of given number
 
 https://i1.faceprep.in/fp/articles/img/55984_1580817324.png
+_____________________________  [ array ] ____________________________________________
 
 write a programe to get 10 room lenth and width and find area of rectangle. 
